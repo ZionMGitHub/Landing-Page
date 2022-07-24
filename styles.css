@@ -32,3 +32,45 @@ h1{
     gap: 16px;
     font-size:18px;
 }
+
+.content{
+    display:flex;
+    flex-direction:column;
+    width: 450px;
+    margin:145px 195px;
+    gap:5px;
+    color:#F9FAF8;
+}
+
+.content p{
+    margin:0px;
+    font-size: 18px;
+}
+
+.content button{
+    width:140px;
+    height: 35px;
+    flex: 1 1 auto;
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border:none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size:18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size:48px;
+    color:#F9FAF8;
+    margin:0px;
+}
+
+img{
+    height:250px;
+    width:550px
+}
+
