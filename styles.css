@@ -5,7 +5,7 @@ flex-direction:column;
 
 }
 
-.container {
+.first-container {
     background-color: #1F2937;
     flex:1;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,5 +86,44 @@ img{
     width:550px;
     flex-shrink:1;
     background-color: grey;
+}
+
+.second-container{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    
+    
+}
+
+.title{
+    font-size:36px;
+    display: flex;
+    justify-content:center;
+    color:#1F2937;
+    margin-top: 40px;
+}
+
+.box{
+    
+    border: red dotted;
+   
+    max-width:160px;
+    
+}
+
+.second-container .img{
+    border: #3882f6 solid 5px;
+    height:150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.second-container .text {
+    color:grey;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
