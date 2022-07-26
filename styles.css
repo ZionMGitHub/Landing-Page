@@ -89,13 +89,9 @@ img{
 }
 
 .second-container{
-    
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    gap: 300px;
+    gap: 50px;
     justify-content: center;
-    
-    
 }
 
 .title{
@@ -104,14 +100,16 @@ img{
     justify-content:center;
     color:#1F2937;
     margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 
 .box{
-    
-    border: red dotted;
-   
     max-width:160px;
-    
+    display: flex;
+    flex-direction:column;
+    gap:5px;
 }
 
 .second-container .img{
@@ -119,11 +117,19 @@ img{
     height:150px;
     width: 150px;
     border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.second-container .text {
-    color:grey;
+.second-container .text{
+    color:black;
+    width: 98%;
     text-align: center;
-    flex-wrap: wrap;
+    padding:0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    display: flex;
+    justify-content: center;
 }
 
