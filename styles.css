@@ -137,7 +137,7 @@ img{
 .third-container {
     background-color:#E5E7EB;
     display:flex;
-    height:500px;
+    height:450px;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -158,6 +158,20 @@ img{
     display:flex;
     justify-content:flex-end;
     font-style:normal;
+}
+
+.fourth-container{
+    display:flex;
+    height: 300px;
+    justify-content:center;
+    align-items:center;
+    padding: 50px 200px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    width:100%;
+    height:200px;
 }
 
 
